@@ -1,9 +1,14 @@
-Deadlock avoidance project
+# Deadlock avoidance project
 
+##Description
+---
 This project simulates having a certain amount of resources that are shared amongst N number of threads that are created at runtime. The program schedules them
 in such a way that it avoids deadlock. For example suppose thread ONE needs 5 of resource A and has 3 and there's only 5 total of resource ONE, then thread one would sleep until 
 it can get allocated all of the 5 total of that resource. but suppose Thread 2 also needs 5 of resource ONE and currently has 2 and sleeps. Neither of the threads can release
 the resource until they meet their request and that would never happen so thus it DEADLOCKS. This program avoids these situations. 
+
+##Instructions
+---
 
 (1) operating system: Windows 10 Pro 64-bit
 (2) Tool used for running program: Cygwin64 Terminal
